@@ -55,5 +55,6 @@ server {
 
   keepalive_timeout 300;
   charset utf-8;
-  root <%= @doc_root %>;
+  return 301 https://volgactf.ru/volgactf-2018-quals/quals.html;
+  #root <%= @doc_root %>;
 }
